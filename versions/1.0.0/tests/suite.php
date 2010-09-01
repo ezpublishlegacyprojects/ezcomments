@@ -19,7 +19,6 @@ class ezcomCommentsTestSuite extends ezpDatabaseTestSuite
         $this->addTestSuite( "ezcomCommentManagerTest" );
         $this->addTestSuite( "ezcomSubscriptionManagerTest" );
         $this->addTestSuite( "ezcomNotificationManagerTest" );
-        $this->addTestSuite( "ezcomUtilityTest" );
     }
 
     public static function suite()
